@@ -451,6 +451,15 @@ body {
     padding-bottom: 20px    ;
 }
 
+.dog-box-1 {
+    display: none;
+    width: 264px;
+    height: 378px;
+    padding: 8px 8px 0px 8px;
+    border-radius: 12px;
+    color: #FDFDFD;
+    box-shadow: 0px 4px 28px #00000014 ;
+}
 
 /* media screen on mobile phones */
 
@@ -499,6 +508,11 @@ body {
 
     .container-5 {
         border: none;
+        width: 414px;
+        display: block;
+        gap: 0;
+        margin: 0;
+        padding: 0;
     }
 
     .little-img-dog {
@@ -604,11 +618,8 @@ body {
     }
 
     .container {
-        width: 414px;
-        display: block;
-        gap: 0;
-        margin: 0;
-        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .share {
@@ -618,6 +629,84 @@ body {
         display: block;
     }
 
-    
+    .whats-new {
+        position: absolute;
+        top: 2067px;
+        left: 16px;
+        display: none;
+    }
+
+    .title-ourpets {
+        width: 348px;
+        height: 54px;
+        position: absolute;
+        left: 16px;
+        gap: 2px;
+        top: 2137px;
+    }
+
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+        position: absolute;
+        top: 2216px;
+        left: 16px;
+    }
+
+    .dog-box {
+        width: 169px;
+        height: 317px;
+    }
+
+    .dog-img {
+        width: 169px;
+        height: 169px;
+    }
+
+    .dog-code {
+        width: 161px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 20px;
+        color: #00171F;
+    }
+
+    .gender-parent {
+        width: 161px;
+        height: 18px;
+        font-size: 12px;
+        line-height: 18px;
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .dot {
+        display: none;
+    }
+
+    .gender-one {
+        display: flex;
+    }
+
+    .gender-two {
+        display: flex;
+        position: relative;
+        bottom: 20px;
+        left: 8px;
+    }
+
+    .price {
+        position: relative;
+        top: 17px;
+        width: 115px;
+        height: 24px;
+        font-size: 16px;
+        line-height: 24px;   
+    }
+
+    .dog-box-1 {
+        display: block;
+        width: 169px;
+        height: 317px;
+    }
 
 }  
