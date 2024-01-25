@@ -116,7 +116,7 @@ body {
     background: var(--Neutral-Color-00, #FDFDFD);
     margin-left: 130px;
     margin-right: 130px;
-    height: 826px;
+    height: 924px;
 }
 
 .link-arrow {
@@ -235,3 +235,35 @@ body {
     position: relative;
     bottom: 4px;
 }
+
+.shiba-container {
+    display: flex;
+    position: relative;
+    top: 300px;
+    right: 299px;
+    width: 194px;
+    padding: 4px 11px 2px 11px;
+    align-items: center;
+    color: var(--Neutral-Color-60, #667479);
+    right: 387px;
+    padding-top: 2px;
+}
+
+.hr {
+    color: var(--Neutral-Color-100, #00171F);
+    position: relative;
+    width: 250px;
+    
+}
+
+
+/* media screen on mobile phones */
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0;
+        width: 414px;
+    }
+    
+
+}  
