@@ -260,6 +260,35 @@ body {
     display: none;
 }
 
+/* lovely container section */
+
+.our-lovely-customer {
+    margin-left: 130px;
+    margin-top: 40px;
+}
+
+.lovely-container {
+    display: flex;
+    gap: 12px;
+}
+
+.lovely-title {
+    font-family: SVN-Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; 
+    color: var(--Neutral-Color-100, #00171F);
+    
+}
+
+.dash-parent {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 
 /* media screen on mobile phones */
 
