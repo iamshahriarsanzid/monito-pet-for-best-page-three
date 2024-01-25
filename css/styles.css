@@ -88,7 +88,7 @@ body {
 }
 
 .vnd-icon {
-    margin: -36px;
+    margin: -44px;
 }
 
 .checkbtn {
@@ -99,3 +99,139 @@ body {
     display: none;
 }
 
+/* setion start */
+
+.container {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 1180px;
+    padding: 22px 20px;
+    align-items: flex-start;
+    gap: 34px;
+    border-radius: 20px;
+    border: 1px solid var(--Neutral-Color-10, #EBEEEF);
+    background: var(--Neutral-Color-00, #FDFDFD);
+    margin-left: 130px;
+    margin-right: 130px;
+    height: 826px;
+}
+
+.link-arrow {
+    position: relative;
+    left: -550px;
+    top: -215px;
+    z-index: 1;
+}
+
+.link-arrow-1{
+    position: relative;
+    top: -215px;
+    left: -125px;
+}
+
+.little-img-dog {
+    display: flex;
+    gap: 12px;
+    margin-top: 4px;
+}
+
+.guarantee-pets {
+    display: flex;
+    width: 536px;
+    height: 30px;
+    background: var(--Neutral-Color-00, #FFE7BA);
+    padding: 9px 12px 9px 12px;
+    border-radius: 10px;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.img-parcent {
+    display: flex;
+}
+
+.img-parcent h3 {
+    font-family: SVN-Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    color: var(--Primary-Color-Dark-Blue-80, #002A48);
+    padding-left: 8px;
+    position: relative;
+    bottom: 5px;
+}
+
+.share {
+    display: flex;
+    gap: 21px;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+.sku {
+    font-family: SVN-Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--Neutral-Color-40, #99A2A5);
+}
+.shiba {
+    font-family: SVN-Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    color: var(--Neutral-Color-100, #00171F);
+}
+
+.shiba-price {
+    font-family: SVN-Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    color: var(--Primary-Color-Dark-Blue-80, #002A48);
+    margin-top: -10px;
+}
+
+.contact-btn {
+    height: 44px;
+    padding: 14px 28px 10px 28px;
+    border-radius: 57px;
+    background: var(--Primary-Color-Dark-Blue, #003459);
+    color: var(--Neutral-Color-00, #FDFDFD);
+    cursor: pointer;
+    border: none;
+}
+
+.monito-btn {
+    height: 44px;
+    padding: 14px 28px 10px 24px;
+    border-radius: 57px;
+    border: 2px solid var(--Primary-Color-Dark-Blue-80, #002A48);  
+    font-family: SVN-Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    color: var(--Primary-Color-Dark-Blue-80, #002A48);
+    position: relative;
+    top: 16px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.chat-btn-name {
+    position: relative;
+    bottom: 15px;
+}
+
+.chat-img {
+    position: relative;
+    bottom: 4px;
+}
