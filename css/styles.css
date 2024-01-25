@@ -256,6 +256,10 @@ body {
     
 }
 
+.responsive-img {
+    display: none;
+}
+
 
 /* media screen on mobile phones */
 
@@ -264,6 +268,121 @@ body {
         margin: 0;
         width: 414px;
     }
+
+    .responsive-img {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0px;
+    }
+
+    .nav-main, .share a, .sku, .big-dog {
+        display: none;
+    }
+
+    .link-arrow {
+        position: absolute;
+        top: 240px;
+        left: 16px;
+    }
+
+    .link-arrow-1 {
+        position: absolute;
+        top: 234px;
+        left: 346px;
+        z-index: 1;
+    }
+
+    .left-arrow {
+        position: absolute;
+        z-index: 1;
+        top: 20px;
+        left: 16px;
+    }
+
+    .warning-icon {
+        position: absolute;
+        top: 15px;
+        right: 16px;
+    }
+
+    .container {
+        border: none;
+    }
+
+    .little-img-dog {
+        position: absolute;
+        left: 16px;
+        top: 529px;
+        gap: 11px;
+    }
+
+    .little-1 {
+        height: 57px;
+        width: 57px;
+    }
+
+    .hr-arrow {
+        position:   absolute;
+        left: 195px;
+        top: 624px;
+    }
+
+    .shiba-inu {
+        position: absolute;
+        left: 16px;
+        top: 650px;
+        z-index: 1;
+    }
+
+    .shiba {
+        position: absolute;
+        left: 16px;
+        top: 665px;
+    }
     
+    .shiba-price {
+        position: absolute;
+        left: 16px;
+        top: 735px;
+    }
+
+    .monito-btn {
+        position: absolute;
+        left: 156px;
+        top: 790px;
+    }
+
+    .contact-btn {
+        position: absolute;
+        left: 16px;
+        z-index: 3;
+        top: 790px;
+    }
+
+    .shiba-container-parent {
+        position: absolute;
+        left: 395px;
+        top: 549px;
+    }
+
+    .hr {
+        width: 190px;
+
+    }
+
+    .guarantee-pets {
+        position: absolute;
+        left: 16px;
+        top: 1480px;
+        width: 382px;
+        height: 86px;
+        display: block;
+    }
+
+    .img-parcent {
+        position: relative;
+        left: 10px;
+    }
 
 }  
