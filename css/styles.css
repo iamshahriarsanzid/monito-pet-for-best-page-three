@@ -289,6 +289,10 @@ body {
     margin-top: 20px;
 }
 
+.responsive-lovely {
+    display: none;
+}
+
 
 /* media screen on mobile phones */
 
@@ -392,7 +396,8 @@ body {
     .shiba-container-parent {
         position: absolute;
         left: 395px;
-        top: 549px;
+        top: 588px;
+        width: 0px;
     }
 
     .hr {
@@ -403,8 +408,8 @@ body {
     .guarantee-pets {
         position: absolute;
         left: 16px;
-        top: 1480px;
-        width: 382px;
+        top: 1509px;
+        width: 370px;
         height: 86px;
         display: block;
     }
@@ -413,5 +418,48 @@ body {
         position: relative;
         left: 10px;
     }
+
+    .lovely-container {
+        display: none;
+    }
+
+    .lovely-title {
+        position: absolute;
+        top: 1637px;
+        left: 16px;
+    }
+
+    .responsive-lovely {
+        display: block;
+        position: absolute;
+        display: flex;
+        gap: 12px;
+        left: 16px;
+        top: 1709px;
+    }
+
+    .dash-parent {
+        position: absolute;
+        left: 179px;
+        top: 2049px;
+        z-index: 1;
+    }
+
+    .container {
+        width: 414px;
+        display: block;
+        gap: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .share {
+        position: absolute;
+        left: 332px;
+        top: 832px;
+        display: block;
+    }
+
+    
 
 }  
