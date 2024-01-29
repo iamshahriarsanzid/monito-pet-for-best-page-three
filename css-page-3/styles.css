@@ -563,7 +563,7 @@ body {
     display: flex;
     margin-left: 92px;
     align-items: center;
-    gap: 414px;
+    gap: 356px;
     margin-left: 92px;
     margin-top: 57px;
 }
@@ -614,6 +614,12 @@ body {
         position: absolute;
         top: 0;
         left: 0px;
+        width: 414px;
+    }
+
+    .responsive-img img {
+        width: 414px;
+        
     }
 
     .nav-main, .share a, .sku, .big-dog {
@@ -659,7 +665,7 @@ body {
         position: absolute;
         left: 16px;
         top: 529px;
-        gap: 11px;
+        gap: 10.300px;
     }
 
     .little-1 {
@@ -722,7 +728,7 @@ body {
         position: absolute;
         left: 16px;
         top: 1509px;
-        width: 370px;
+        width: 353px;
         height: 86px;
         display: block;
     }
@@ -746,7 +752,7 @@ body {
         display: block;
         position: absolute;
         display: flex;
-        gap: 12px;
+        gap: 8px;
         left: 16px;
         top: 1709px;
     }
@@ -765,7 +771,7 @@ body {
 
     .share {
         position: absolute;
-        left: 332px;
+        left: 328px;
         top: 832px;
         display: block;
     }
@@ -852,7 +858,7 @@ body {
 
     .register-now {
         width: 414px;
-        height: 575px;
+        height: 646px;
         border-radius: 20px 20px 0px 0px;
         background-color: #FCEED5;
         position: absolute;
@@ -874,6 +880,7 @@ body {
         left: -20px;
         top: -8px;
         font-size: 20px;
+        width: 300px;
     }
 
     .gmail-subscribe-box {
@@ -932,8 +939,8 @@ body {
     .privacy-policy {
         display: block;
         position: absolute;
-        top: 336px;
-        left: 63px;
+        top: 406px;
+        left: 53px;
     }
 
     .terms {
